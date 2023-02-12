@@ -13,7 +13,7 @@ public class FireSyncronizer : MonoBehaviour {
     public float m_StartTime = 0.0f;
 
     public Material flameMat;
-    public static Material[] flameMaterials = new Material[7];  // Max used
+    public static Material[] flameMaterials = new Material[10];  // Max used
     public Color orangeColor;
 
     Dictionary<Chart.GameMode, Dictionary<int, Color>> gameModeColourDict;
@@ -50,12 +50,14 @@ public class FireSyncronizer : MonoBehaviour {
                 {
                     Chart.GameMode.GHLGuitar, new Dictionary<int, Color>()
                     {
-                        { (int)Note.GHLiveGuitarFret.Black1, Color.gray },
-                        { (int)Note.GHLiveGuitarFret.Black2, Color.gray },
-                        { (int)Note.GHLiveGuitarFret.Black3, Color.gray },
-                        { (int)Note.GHLiveGuitarFret.White1, Color.white },
-                        { (int)Note.GHLiveGuitarFret.White2, Color.white  },
-                        { (int)Note.GHLiveGuitarFret.White3, Color.white },
+                        { (int)Note.GHLiveGuitarFret.Black1, Color.blue },
+                        { (int)Note.GHLiveGuitarFret.Black2, Color.blue },
+                        { (int)Note.GHLiveGuitarFret.Black3, Color.blue },
+                        { (int)Note.GHLiveGuitarFret.Black4, Color.blue },
+                        { (int)Note.GHLiveGuitarFret.White1, Color.red },
+                        { (int)Note.GHLiveGuitarFret.White2, Color.blue  },
+                        { (int)Note.GHLiveGuitarFret.White3, Color.green },
+                        { (int)Note.GHLiveGuitarFret.White4, Color.white },
                         { (int)Note.GHLiveGuitarFret.Open, Color.magenta },
                     }
                 },
@@ -82,7 +84,7 @@ public class FireSyncronizer : MonoBehaviour {
             };
 
 
-            flameMaterials = new Material[7];
+            flameMaterials = new Material[10];
             for (int i = 0; i < flameMaterials.Length; ++i)
             {
                 flameMaterials[i] = new Material(flameMat);

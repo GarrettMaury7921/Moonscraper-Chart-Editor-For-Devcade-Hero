@@ -23,7 +23,7 @@ public class LaneInfo : MonoBehaviour {
     {
         { Chart.GameMode.Guitar, 5 },
         { Chart.GameMode.Drums, 5 },
-        { Chart.GameMode.GHLGuitar, 6 },
+        { Chart.GameMode.GHLGuitar, 5 },
     };
 
     public const float positionRangeMin = -2, positionRangeMax = 2;

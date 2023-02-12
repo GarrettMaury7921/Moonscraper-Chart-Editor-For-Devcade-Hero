@@ -13,6 +13,7 @@ namespace MoonscraperChartEditor.Song
         public enum GuitarFret
         {
             // Assign to the sprite array position
+
             Green = 0,
             Red = 1,
             Yellow = 2,
@@ -38,9 +39,11 @@ namespace MoonscraperChartEditor.Song
             Black1,
             Black2,
             Black3,
+            Black4,
             White1,
             White2,
             White3,
+            White4,
             Open
         }
 
