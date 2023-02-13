@@ -22,7 +22,7 @@ public class MeshNoteResources : ScriptableObject {
     public Renderer spCymbalRenderer;
 
     [Header("Open note")]
-    public Material[] openMaterials = new Material[5];
+    public Material[] openMaterials = new Material[8];
 
     [Header("Strum config")]
     public Material[] strumColorPalette = new Material[9];
@@ -34,14 +34,14 @@ public class MeshNoteResources : ScriptableObject {
     public Material[] cymbalColorPalette = new Material[9];
 
     [Header("Starpower config")]
-    public Material[] starpowerMaterials = new Material[5];
-    public Material[] starpowerDrumFillMaterials = new Material[5];
+    public Material[] starpowerMaterials = new Material[8];
+    public Material[] starpowerDrumFillMaterials = new Material[8];
 
     [Header("Palette maps")]
     public int[] guitarModeLaneColorIndicies = new int[5];
     public int[] drumModeLaneColorIndicies = new int[5];
     public int[] drumModeLaneColorIndicies4LaneOverride = new int[4];
-    public int[] ghlGuitarModeLaneColorIndicies = new int[6];
+    public int[] ghlGuitarModeLaneColorIndicies = new int[9];
 
     public int starpowerLaneColorIndex;
     public int toolNoteLaneColorIndex;

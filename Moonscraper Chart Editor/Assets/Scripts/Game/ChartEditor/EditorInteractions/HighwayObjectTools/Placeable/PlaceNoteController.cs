@@ -53,6 +53,9 @@ public class PlaceNoteController : ObjectlessTool {
         MSChartEditorInputActions.ToolNoteLane4,
         MSChartEditorInputActions.ToolNoteLane5,
         MSChartEditorInputActions.ToolNoteLane6,
+        MSChartEditorInputActions.ToolNoteLane7,
+        MSChartEditorInputActions.ToolNoteLane8,
+        MSChartEditorInputActions.ToolNoteLane9,
     };
 
     MSChartEditorInputActions GetInputForNoteIndex(int index, int laneCount)

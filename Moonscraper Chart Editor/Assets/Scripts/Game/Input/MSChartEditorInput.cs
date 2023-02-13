@@ -107,6 +107,9 @@ public enum MSChartEditorInputActions
     ToolNoteLane4,
     ToolNoteLane5,
     ToolNoteLane6,
+    ToolNoteLane7,
+    ToolNoteLane8,
+    ToolNoteLane9,
     ToolNoteLaneOpen,
 
     CloseMenu,
