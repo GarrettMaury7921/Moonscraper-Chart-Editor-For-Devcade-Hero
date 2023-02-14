@@ -18,15 +18,15 @@ public class LaneInfo : MonoBehaviour {
     Dictionary<Chart.GameMode, int[]> standardGamemodePaletteMap;
     Dictionary<Chart.GameMode, Dictionary<int, int[]>> laneCountPaletteMapOverrides;
 
-    int m_laneCount = 8;
+    int m_laneCount = 9;
     Dictionary<Chart.GameMode, int> standardGamemodeToLaneCountMap = new Dictionary<Chart.GameMode, int>()
     {
-        { Chart.GameMode.Guitar, 5 },
-        { Chart.GameMode.Drums, 5 },
+        { Chart.GameMode.Guitar, 8 },
+        { Chart.GameMode.Drums, 8 },
         { Chart.GameMode.GHLGuitar, 8 },
     };
 
-    public const float positionRangeMin = -2, positionRangeMax = 4;
+    public const float positionRangeMin = -2, positionRangeMax = 5;
 
     // Use this for initialization
     void Start()

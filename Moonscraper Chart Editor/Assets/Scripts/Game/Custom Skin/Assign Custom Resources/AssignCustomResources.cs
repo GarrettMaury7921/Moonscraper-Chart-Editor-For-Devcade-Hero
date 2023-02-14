@@ -8,8 +8,8 @@ public class AssignCustomResources : MonoBehaviour {
     public Renderer fretboard;
 
     Texture initFretboardTex;
-    public CustomFretManager[] customFrets = new CustomFretManager[5];
-    public GHLHitAnimation[] customFretsGHL = new GHLHitAnimation[2];
+    public CustomFretManager[] customFrets = new CustomFretManager[8];
+    public GHLHitAnimation[] customFretsGHL = new GHLHitAnimation[4]; // was 2 - garrett
 
     // Use this for initialization
     void Awake () {

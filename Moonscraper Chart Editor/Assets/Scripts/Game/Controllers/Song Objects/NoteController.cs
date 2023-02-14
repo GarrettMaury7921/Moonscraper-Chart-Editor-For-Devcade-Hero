@@ -7,8 +7,8 @@ using UnityEngine;
 using MoonscraperChartEditor.Song;
 
 public class NoteController : SongObjectController {
-    public const float OPEN_NOTE_SUSTAIN_WIDTH = 4;
-    public const float OPEN_NOTE_COLLIDER_WIDTH = 5;
+    public const float OPEN_NOTE_SUSTAIN_WIDTH = 7;
+    public const float OPEN_NOTE_COLLIDER_WIDTH = 8;
 
     public Note note { get { return (Note)songObject; } set { Init(value); } }
     public SustainController sustain;

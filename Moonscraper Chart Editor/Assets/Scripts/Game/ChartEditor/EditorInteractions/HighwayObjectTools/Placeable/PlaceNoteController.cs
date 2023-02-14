@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using MoonscraperChartEditor.Song;
 
 public class PlaceNoteController : ObjectlessTool {
-    public PlaceNote[] standardPlaceableNotes = new PlaceNote[10];        // Starts at multi-note before heading into green (1), red (2) through to open (6)
+    public PlaceNote[] standardPlaceableNotes = new PlaceNote[9];        // Starts at multi-note before heading into green (1), red (2) through to open (6)
 
     List<PlaceNote> allPlaceableNotes = new List<PlaceNote>();
 

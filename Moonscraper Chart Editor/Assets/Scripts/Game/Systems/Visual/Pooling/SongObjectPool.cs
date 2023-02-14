@@ -10,7 +10,7 @@ public abstract class SongObjectPool {
     GameObject prefab;
     SongObjectController[] pool;
 
-    const int POOL_EXTEND_SIZE = 50;
+    const int POOL_EXTEND_SIZE = 80; // was 50 - garrett
 
     public SongObjectPool(GameObject parent, GameObject prefab, int initialSize)
     {

@@ -100,12 +100,15 @@ public class LoadCustomResources : MonoBehaviour {
                 imagesToPack.Add(i + "_reg_strum_ghl", new TextureToPack.GridSlice(GHL_NOTE_TEXTURE_1X1_WIDTH, GHL_NOTE_TEXTURE_1X1_HEIGHT));
                 imagesToPack.Add(i + "_reg_hopo_ghl", new TextureToPack.GridSlice(GHL_NOTE_TEXTURE_1X1_WIDTH, GHL_NOTE_TEXTURE_1X1_HEIGHT));
                 imagesToPack.Add(i + "_reg_tap_ghl", new TextureToPack.GridSlice(GHL_NOTE_TEXTURE_1X1_WIDTH, GHL_NOTE_TEXTURE_1X1_HEIGHT));
+                imagesToPack.Add(i + "_reg_pad_ghl", new TextureToPack.GridSlice(GHL_NOTE_TEXTURE_1X1_WIDTH, GHL_NOTE_TEXTURE_1X1_HEIGHT));
+
                 imagesToPack.Add(i + "_sp_strum_ghl", new TextureToPack.GridSlice(GHL_NOTE_TEXTURE_1X1_WIDTH, GHL_NOTE_TEXTURE_1X1_HEIGHT));
                 imagesToPack.Add(i + "_sp_hopo_ghl", new TextureToPack.GridSlice(GHL_NOTE_TEXTURE_1X1_WIDTH, GHL_NOTE_TEXTURE_1X1_HEIGHT));
                 imagesToPack.Add(i + "_sp_tap_ghl", new TextureToPack.GridSlice(GHL_NOTE_TEXTURE_1X1_WIDTH, GHL_NOTE_TEXTURE_1X1_HEIGHT));
+                imagesToPack.Add(i + "_reg_pad_ghl", new TextureToPack.GridSlice(GHL_NOTE_TEXTURE_1X1_WIDTH, GHL_NOTE_TEXTURE_1X1_HEIGHT));
             }
 
-            for (int i = 0; i < 6; ++i)
+            for (int i = 0; i < 9; ++i)
             {
                 imagesToPack.Add(i + SkinKeys.xFretBaseGhl, null);
                 imagesToPack.Add(i + SkinKeys.xFretPressGhl, null);

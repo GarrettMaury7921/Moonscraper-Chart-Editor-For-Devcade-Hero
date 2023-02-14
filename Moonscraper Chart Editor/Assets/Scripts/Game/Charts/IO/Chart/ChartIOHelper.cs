@@ -85,10 +85,12 @@ namespace MoonscraperChartEditor.Song.IO
             { 0, (int)Note.GHLiveGuitarFret.White1    },
             { 1, (int)Note.GHLiveGuitarFret.White2    },
             { 2, (int)Note.GHLiveGuitarFret.White3    },
-            { 3, (int)Note.GHLiveGuitarFret.Black1    },
-            { 4, (int)Note.GHLiveGuitarFret.Black2    },
-            { 8, (int)Note.GHLiveGuitarFret.Black3    },
-            { 7, (int)Note.GHLiveGuitarFret.Open      },
+            { 3, (int)Note.GHLiveGuitarFret.White4    },
+            { 4, (int)Note.GHLiveGuitarFret.Black1    },
+            { 5, (int)Note.GHLiveGuitarFret.Black2    },
+            { 6, (int)Note.GHLiveGuitarFret.Black3    },
+            { 7, (int)Note.GHLiveGuitarFret.Black4    },
+            { 8, (int)Note.GHLiveGuitarFret.Open      },
         };
 
         public static readonly IReadOnlyDictionary<int, Note.Flags> c_ghlFlagNumLookup = c_guitarFlagNumLookup;
