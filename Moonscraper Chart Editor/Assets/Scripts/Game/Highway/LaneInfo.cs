@@ -18,11 +18,11 @@ public class LaneInfo : MonoBehaviour {
     Dictionary<Chart.GameMode, int[]> standardGamemodePaletteMap;
     Dictionary<Chart.GameMode, Dictionary<int, int[]>> laneCountPaletteMapOverrides;
 
-    int m_laneCount = 9;
+    int m_laneCount = 8;
     Dictionary<Chart.GameMode, int> standardGamemodeToLaneCountMap = new Dictionary<Chart.GameMode, int>()
     {
-        { Chart.GameMode.Guitar, 8 },
-        { Chart.GameMode.Drums, 8 },
+        { Chart.GameMode.Guitar, 5 },
+        { Chart.GameMode.Drums, 5 },
         { Chart.GameMode.GHLGuitar, 8 },
     };
 

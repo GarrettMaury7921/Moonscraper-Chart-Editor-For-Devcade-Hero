@@ -25,13 +25,13 @@ public class MeshNoteResources : ScriptableObject {
     public Material[] openMaterials = new Material[9];
 
     [Header("Strum config")]
-    public Material[] strumColorPalette = new Material[9];
+    public Material[] strumColorPalette = new Material[6];
 
     [Header("Tap config")]
-    public Material[] tapColorPalette = new Material[9];
+    public Material[] tapColorPalette = new Material[6];
 
     [Header("Cymbal config")]
-    public Material[] cymbalColorPalette = new Material[9];
+    public Material[] cymbalColorPalette = new Material[6];
 
     [Header("Starpower config")]
     public Material[] starpowerMaterials = new Material[9];
@@ -39,9 +39,9 @@ public class MeshNoteResources : ScriptableObject {
 
     [Header("Palette maps")]
     public int[] guitarModeLaneColorIndicies = new int[9];
-    public int[] drumModeLaneColorIndicies = new int[5];
+    public int[] drumModeLaneColorIndicies = new int[9];
     public int[] drumModeLaneColorIndicies4LaneOverride = new int[4];
-    public int[] ghlGuitarModeLaneColorIndicies = new int[8];
+    public int[] ghlGuitarModeLaneColorIndicies = new int[9];
 
     public int starpowerLaneColorIndex;
     public int toolNoteLaneColorIndex;

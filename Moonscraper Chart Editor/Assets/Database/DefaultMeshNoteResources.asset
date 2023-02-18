@@ -39,6 +39,9 @@ MonoBehaviour:
   - {fileID: 2100000, guid: aaacd568f7f24eb4487260d9481562b9, type: 2}
   - {fileID: 2100000, guid: 24b9282835af8b148ab15a2f4467dad4, type: 2}
   - {fileID: 2100000, guid: 94f00d72f75ec01419a94fd4d9bd48bc, type: 2}
+  - {fileID: 2100000, guid: 94f00d72f75ec01419a94fd4d9bd48bc, type: 2}
+  - {fileID: 2100000, guid: 94f00d72f75ec01419a94fd4d9bd48bc, type: 2}
+  - {fileID: 2100000, guid: 94f00d72f75ec01419a94fd4d9bd48bc, type: 2}
   strumColorPalette:
   - {fileID: 2100000, guid: 23b61ca831787864e902729f8fc3adcd, type: 2}
   - {fileID: 2100000, guid: 3d4a9de1e0f7de6498a967d8ea275c87, type: 2}
@@ -75,15 +78,18 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 231e0a085bfa65444b2e80e180fa34f6, type: 2}
   - {fileID: 2100000, guid: a14ec594bcf31c645a33610978720c60, type: 2}
   - {fileID: 2100000, guid: b976acb2702be8d4fbc80303c2d5fa46, type: 2}
+  - {fileID: 2100000, guid: b976acb2702be8d4fbc80303c2d5fa46, type: 2}
+  - {fileID: 2100000, guid: b976acb2702be8d4fbc80303c2d5fa46, type: 2}
+  - {fileID: 2100000, guid: b976acb2702be8d4fbc80303c2d5fa46, type: 2}
   starpowerDrumFillMaterials:
   - {fileID: 2100000, guid: ff66d000250ac764d9d54af5421b617c, type: 2}
   - {fileID: 2100000, guid: e989572d5fefde94ba4fca494975d3b9, type: 2}
   - {fileID: 2100000, guid: 231e0a085bfa65444b2e80e180fa34f6, type: 2}
   - {fileID: 2100000, guid: a14ec594bcf31c645a33610978720c60, type: 2}
   - {fileID: 2100000, guid: 8cd6a1685851cc346bad2cac2ffb30d3, type: 2}
-  guitarModeLaneColorIndicies: 0000000001000000020000000300000004000000
+  guitarModeLaneColorIndicies: 0000000001000000020000000300000004000000040000000400000004000000
   drumModeLaneColorIndicies: 0100000002000000030000000400000000000000
   drumModeLaneColorIndicies4LaneOverride: 01000000020000000300000000000000
-  ghlGuitarModeLaneColorIndicies: 060000000600000006000000070000000700000007000000
-  starpowerLaneColorIndex: 5
+  ghlGuitarModeLaneColorIndicies: 0600000006000000060000000600000007000000070000000700000007000000
+  starpowerLaneColorIndex: 8
   toolNoteLaneColorIndex: 8
