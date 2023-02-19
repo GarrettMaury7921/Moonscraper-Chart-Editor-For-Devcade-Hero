@@ -21,8 +21,8 @@ public class LaneInfo : MonoBehaviour {
     int m_laneCount = 8;
     Dictionary<Chart.GameMode, int> standardGamemodeToLaneCountMap = new Dictionary<Chart.GameMode, int>()
     {
-        { Chart.GameMode.Guitar, 5 },
-        { Chart.GameMode.Drums, 5 },
+        { Chart.GameMode.Guitar, 8 },
+        { Chart.GameMode.Drums, 8 },
         { Chart.GameMode.GHLGuitar, 8 },
     };
 
@@ -93,10 +93,17 @@ public class LaneInfo : MonoBehaviour {
                 }
             }
 
-            for (int i = 0; i < colours.Length; ++i)
-            {
-                colours[i] = laneColourPalette[paletteMap[i]];
-            }
+                for (int i = 0; i < colours.Length; ++i)
+                {
+                    try
+                        {
+                            colours[i] = laneColourPalette[paletteMap[i-3]];
+                        }
+                    catch
+                        {
+                            Debug.Log("COLOR ERROR " + paletteMap[i]);
+                        }
+                }
 
             return colours;
         }
