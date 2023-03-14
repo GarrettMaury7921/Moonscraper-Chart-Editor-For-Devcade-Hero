@@ -6,7 +6,10 @@
 > If you are looking to download Moonscraper Chart Editor please see the
 > [releases page](https://github.com/FireFox2000000/Moonscraper-Chart-Editor/releases).
 
-## About
+## About Moonscraper Chart Editor For Devcade Hero
+This is essentially the same thing as the original Moonscraper. Except, this is designed for people needing up to eight buttons for notes. These new notes were implemented in the 'Guitar Hero Live (GHL)' instrument. Open notes are not supported for all buttons. There may be visual bugs in the program, but reading and writing files, starpower, and general note placement is supported. This is a modification of the original Moonscraper. All credit to the original code goes to the original creator.
+
+## About Moonscraper Chart Editor
 Moonscraper Chart Editor is a song editor for Guitar Hero style rhythm games mainly intended to support the custom song creation for games such as Guitar Hero, Clone Hero and Rock Band.
 
 Trailer- https://www.youtube.com/watch?v=G8Qd32TZz4A
