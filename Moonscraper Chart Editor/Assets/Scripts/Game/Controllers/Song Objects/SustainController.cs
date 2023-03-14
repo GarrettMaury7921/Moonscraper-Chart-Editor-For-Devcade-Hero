@@ -1,4 +1,5 @@
 ﻿// Copyright (c) 2016-2020 Alexander Ong
+// Copyright (c) 2023 Garrett Maury
 // See LICENSE in project root for license information.
 
 using UnityEngine;
